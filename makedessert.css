@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header a:active, a:hover, a:visited, a:link {
+	color: #1c604e;
+	text-decoration: none;
+}
+
+body {
+	margin: 0 auto;
+}
+
+header {
+	font-family: "Varela Round", sans-serif;
+	text-align: left;
+	margin-top: 25px;
+	font-size: 16pt;
+	color: #1c604e;
+}
+
+.onpage {
+	padding: 9px 9px;
+	background-color: #FFFFFF;
+	border-radius: 21px;
+	filter: drop-shadow(0px 8px 4px rgba(43,149,121,0.71));
+}
+
+#nav a:hover {
+	cursor: pointer;
+}
+
+#nav {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 4%;
+	margin-right: 4%;
+	font-size: 13pt;
+	align-items: center;
+}
+
+h1 {
+	font-family: "Varela Round", sans-serif;
+	text-align: center;
+	font-size: 50pt;
+	color: #FFFFFF;
+	filter: drop-shadow(2px 4px 6px #1c604e);
+	position: relative;
+	top: 445px;
+	margin-bottom: 20px;
+}
+
+#trend-head {
+	text-align: left;
+	margin-left: 18%;
+	top: 365px;
+	color: #1c604e;
+	filter: drop-shadow(2px 4px 6px #FFFFFF);
+}
+
+#hero {
+	background-image: url("background.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 900px;
+	margin-top: -400px;
+}
+
+#search {
+	text-align: center;
+	position: relative;
+	top: 445px;	
+	height: 50px;
+	display: flex;
+	align-content: center;
+	border-radius: 30px;
+	filter: drop-shadow(0px 14px 15px #000000);
+	justify-content: center;
+	padding: 12px 20px;
+
+}
+
+input[type=text] {
+
+	padding: 12px 20px;
+	width: 500px;
+	border-radius: 30px;
+	border:0;
+	font-family: "Varela Round", sans-serif;
+}
+
+button {
+	height: 50px;
+	margin-left: -39px;
+	border-radius: 30px;
+	border:0;
+	background-color: transparent;
+}
+
+button:hover {
+	cursor:pointer;
+}
+
+#wave {
+	background-image: url("whitewave.png");
+	margin-top: -139px;
+	background-size:cover;
+	z-index: 10000;
+	height: 150px;
+	width: 100%;
+	background-position: center;
+}
+
+h2 {
+	color: #5dad9a;
+	margin-left: 18%;
+	size: 25pt;
+	font-family: "Varela Round", sans-serif;
+}
+
+#favs, #recs, #res, #nofavs{
+	display: flex;
+	justify-content: center;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+
+#nofavs {
+	height: 100px;
+	background-color: #FFFFFF;
+	border-radius: 22px;
+	filter: drop-shadow(4px 16px 35px #c6c6c6);	
+	text-align: center;
+	font-family: "Varela Round", sans-serif;
+	color: #B9B9B9;
+	align-items: center;
+}
+
+#fav1, #fav2, #fav3, #fav4, #fav5, #fav6, #rec1, #rec2, #rec3, #res1, #res2, #res3, #rec4, #rec5, #rec6 {
+	width: 33%;
+	height: 375px;
+	background-color: #FFFFFF;
+	border-radius: 22px;
+	filter: drop-shadow(4px 16px 35px #c6c6c6);	
+	margin: 10px;
+	text-align: center;
+	font-family: "Varela Round", sans-serif;
+	padding: 20px 10px 10px 10px;
+	cursor: pointer;
+}
+
+ul {
+	padding-left: 0;
+	margin: 10px;
+	text-align: left;
+	font-size: 12pt;
+}
+
+.divtitle {
+	font-size: 13pt;
+	color: #5dad9a;
+	text-align: left;
+	margin-left: 10px;
+}
+
+img {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+}
+
+i {
+	color: #B7B7B7;
+	cursor: pointer;
+}
+
+.remove2 {
+	font-family: "Varela Round", sans-serif;
+}
+
+.fa-heart, .fa-times {
+	position: relative;
+	left: -5%;
+	bottom: -50%;	
+}
+
+.like, .remove {
+	position: relative;
+	left: -8%;
+	bottom: -89%;
+	color: #9C9C9C;
+	font-size: 11pt;
+	padding: 5px;
+}
+
+.reslike, .remove2 {
+	position: absolute;
+	left: 10%;
+	bottom: 6%;
+	color: #9C9C9C;
+	font-size: 11pt;
+	padding: 5px;
+	font-family: "Varela Round", sans-serif;
+}
+
+.remove {
+	display: none;
+}
+
+.remove:hover {
+	color: #000000;
+}
+
+.remove2:hover {
+	color: #000000;
+}
+
+.remove2:hover .fa-times {
+	color: #000000;
+}
+
+.remove:hover .fa-times {
+	color: #000000;
+}
+
+.like:hover, .reslike:hover {
+	color: #F7ACAD;
+}
+
+.like:hover .fa-heart {
+	color: #F7ACAD;
+}
+
+.reslike:hover .fa-heart {
+	color: #F7ACAD;
+}
+
+.pinkheart {
+	color: #FA5A5B;
+}
+
+.chevron {
+	display: inline-flex;
+}
+
+#left {
+	margin-right: 15px;
+}
+
+#right {
+	margin-left: 15px;
+}
+
+#top10 {
+	height: 1200px;
+	position: relative;
+	top: -440px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+.userform {
+    padding: 9px 9px;
+	background-color: #FFFFFF;
+	border-radius: 21px;
+    filter: drop-shadow(0px 8px 4px rgba(43,149,121,0.21));
+}
+
+#num1, #num2, #num3, #num4, #num5, #num6, #num7, #num8, #num9, #num10 {
+	margin-right: 18%;
+	margin-left: 18%;
+	border-radius: 31px;
+	background-color: #FFFFFF;
+	height: 150px;
+	filter: drop-shadow(0px 14px 15px #1c604e);
+	margin-bottom: 1.5%;
+	cursor: pointer;
+}
