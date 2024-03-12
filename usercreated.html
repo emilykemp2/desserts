@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+  <title> USERCREATE </title>
+<link href="https://alexandra-scott.github.io/webmastas/final/makedessert.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round|Open+Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body {font-family: "Varela Round", sans-serif;}
+	form {margin-left: 17%;}
+</style>
+</head>
+<body>
+	<header>
+		<ul id="nav">
+			<a style="margin-right:4%" href="https://make-desserts.herokuapp.com/">Recipe Finder</a>
+			<a href="https://make-desserts.herokuapp.com/user" style="margin-right:4%">View User-Submitted Recipes</a>
+			<a class="onpage" href="https://make-desserts.herokuapp.com/usercreated.html">Add Your Own Recipe</a>
+		</ul>
+	</header>
+	
+	<div id="hero" style="margin-top: -300px">
+	<h1 id="trend-head">Add Your Own Recipe!</h1>
+	</div>
+	<section id="wave"></section>
+    
+<div style="padding-top:200px; margin:auto; width:50%; height:100px; padding-bottom:0px">
+<form id = "top10" method='get' action='https://make-desserts.herokuapp.com/user' style="height:450px;filter: margin: auto;
+  background-color: rgb(220,220,220, 0.93); padding: 20px; margin:auto; top: -640px;
+  border-radius:21px;">
+    <div>Name of Dessert:</div>
+      <input style="width: 90%" class="userform" type ="text" id = 'name' name="name" required>
+      <br><br>
+	<div>Number of servings:</div>
+      <input style="width: 90%" class="userform" type ="text" id = 'servings' name="servings" required>
+      <br><br>
+	<div>Link to image (optional):</div>
+      <input style="width: 90%" class="userform" type ="text" id = 'image' name="image">
+      <br><br>
+	<div>Link to full recipe:*</div>
+      <input style="width: 90%" class="userform" type ="text" id = 'link' name="link" required>
+      <br><br>
+	<div>Time to prepare:</div>
+      <input style="width: 90%" class="userform" type ="text" id = 'time' name="time" required>
+      <br><br>
+      <button style="color:#000000; margin:auto; padding:10px;filter: drop-shadow(0px 10px 6px rgba(255, 255, 255,0.71)); background-color: rgba(43,149,121,0.71)" type ="submit" id = "nav">Create</button>
+  </form>
+  <div style="padding-bottom:20px;margin:0;position:relative; top:-600px;">
+  *Please note, if you would like to submit a recipe that is not from an online source, please use <a href="https://www.google.com/drive/" target="_blank">Google Drive</a>
+  to create a new document and submit the "view only" link. For assistance, please see <a href="https://support.google.com/drive/answer/2494822?hl=en&co=GENIE.Platform%3DDesktop"target="_blank">Google Drive Support</a>.
+</div>
+</div>
+</body>
+</html>
